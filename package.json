@@ -1,0 +1,20 @@
+{
+  "name": "Chicago-LifeSports",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/l-yang-05/Chicago-LifeSports.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/l-yang-05/Chicago-LifeSports/issues"
+  },
+  "homepage": "https://github.com/l-yang-05/Chicago-LifeSports#readme"
+}
