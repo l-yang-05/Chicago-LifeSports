@@ -1,5 +1,5 @@
 
-## LifeSports Week 18 Challenge 
+## LifeSports App
 
 This application allows the client to create users that can log their workouts. If the client needs to update one of the user's log, this application allows them to do that. The client is also allowed to delete the workout logs in the application. This app was made with node.js, express, and MongoDB Atlas and the app is deployed through Heroku.
 
