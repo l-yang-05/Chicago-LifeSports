@@ -36,3 +36,4 @@ To stop running the server and the react app, you can hit ```command + z``` to c
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
