@@ -7,7 +7,7 @@ const studentSchema = new Schema({
   height: { type: Number, required: true },
   first_name: { type: String, required: true },
   last_name: { type: String, required: true },
-  date: { type: Date, required: true}
+  date: { type: Date, default: Date.now()}
 }, {
   timestamps: true,
 });

@@ -28,7 +28,6 @@ if (process.env.NODE_ENV === "production") {
   uri = process.env.ATLAS_URI  // connection string for Atlas here  
 } else {
   uri = process.env.ATLAS_URI  // connection string for localhost mongo here  
-  console.log(process.env.PORT)
 }
 
 // connection to database

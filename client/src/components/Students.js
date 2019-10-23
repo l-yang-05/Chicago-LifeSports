@@ -29,7 +29,7 @@ class Students extends React.Component {
       <React.Fragment>
         {console.log("hey")}
         {console.log(this.state.students)}
-        {this.state.students.map((student, index) => <p key={index}>{student.last_name}</p>)}
+        {this.state.students.map((student, index) => <p key={index}>{student.last_name} {student.first_name} {student.gender} {student.height}</p>)}
       </React.Fragment>
     );
   }

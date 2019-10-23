@@ -18,12 +18,12 @@ router.get('/', async (req, res) => {
 })
 
 router.post('/new', async (req, res) => {
-    const exercise = new Exercise(req.body);
-    await exercise
+    const student = new Students(req.body);
+    await student
       .save()
       .then(result => {
         console.log(result);
-        res.send(exercise);
+        res.send(student);
       })
       .catch(err => {
         console.log(err);
