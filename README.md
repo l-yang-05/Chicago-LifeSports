@@ -12,10 +12,11 @@ Clone or download this repo onto your local machine. Once you have done this, in
 
 After you have installed all of the dependencies that are needed for this project, you can open the project up through your command line tool. First be in the root of the directory and then run ```npm run start``` in your command line tool. This will start the server and the react app at the same time.
 
+You will need to provide your own .env file that connects to your local mongoDB or mongoDB Atlas, in order for you to connect the application to a database.
 
 ## Stopping the app
 
-To stop running the server and the react app, you can hit ```command + z``` to close both.
+To stop running the server and the react app, you can hit ```control + z``` to close both.
 
 
 ## Built With
@@ -31,6 +32,8 @@ To stop running the server and the react app, you can hit ```command + z``` to c
 ## Author
 
 * [Lucy Yang](https://github.com/l-yang-05)
+* [Jonathan Giler](https://github.com/jgiler)
+* [Aaliyah McCray](https://github.com/AaliyahM777)
 
 
 ## License
