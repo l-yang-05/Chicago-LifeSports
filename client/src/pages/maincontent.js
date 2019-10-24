@@ -7,8 +7,8 @@ function maincontent() {
 
     return (
         <body>
-            <div>
-                <h1> Welcome To Life Sports</h1>
+            <div class="headerbackground">
+                <h1 class="homeheadtitle"> Welcome To Life Sports</h1>
             <div>
         
             </div>
@@ -16,15 +16,15 @@ function maincontent() {
                 <Carousel />
 
                 <div>
-                    <h2>Who Are We</h2>
+                    <h2 class="headertitletwo">Who Are We?</h2>
 
-                    <p>We are a non-profit organization partnered with Red Ventures. Our overall goal to connect with youth through sports which include our two subcateroy academies LifeHoops and LifeKicks.</p>
+                    <p class="paragraphone">We are a non-profit organization partnered with Red Ventures. Our overall goal to connect with youth through sports which include our two subcateroy academies LifeHoops and LifeKicks.</p>
 
                 </div>
                 <div>
-                    <h3>For Students and Coaches</h3>
-                    <h4>Access the beta excercise log here</h4>
-                    <button onClick="./components/exercises-list.component">Exercise Log</button>
+                    <h3 class="headertitlethree">For Students and Coaches</h3>
+                    <h4 class="headertitlefour">Access the beta excercise log here</h4>
+                    <button class="logbutton" onClick="./components/exercises-list.component">Exercise Log</button>
                 </div>
             </div>
         </body>

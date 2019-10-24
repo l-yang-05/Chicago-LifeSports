@@ -8,7 +8,7 @@ function Navbar() {
       <div className="collpase navbar-collapse">
         <ul className="navbar-nav mr-auto">
           <li className="navbar-item">
-            <Link to="./pages/maincontent" className="nav-link">Home</Link>
+            <Link to="/pages/maincontent" className="nav-link">Home</Link>
           </li>
           <li className="navbar-item">
             <Link to="/" className="nav-link">Exercises</Link>
@@ -24,6 +24,9 @@ function Navbar() {
           </li>
           <li className="navbar-item">
             <Link to="/students/new" className="nav-link">New Student</Link>
+          </li>
+          <li className="navbar-item">
+            <Link to="/" className="nav-link">Login</Link>
           </li>
         </ul>
       </div>

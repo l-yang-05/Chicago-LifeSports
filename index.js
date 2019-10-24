@@ -53,6 +53,9 @@ app.use('/users', usersRouter);
 // using student route
 app.use('/students', studentRouter)
 
+const verify = require('./routes/verify')
+app.use('/api', verify)
+
 // Creating live connection to reactjs app
 // Define any API routes before this runs
 app.get("*", function (req, res) {

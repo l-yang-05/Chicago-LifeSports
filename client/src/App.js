@@ -8,8 +8,9 @@ import CreateExercise from "./components/create-exercise.component";
 import CreateUser from "./components/create-user.component";
 import Students from './components/Students'
 import NewStudent from './components/NewStudent'
-import signinform from './components/signin'
 import maincontent from'./pages/maincontent';
+import './styles/maincontent.css';
+
 
 
 
@@ -19,8 +20,7 @@ function App() {
       <div className="container">
       <Navbar />
       <br/>
-      <Route path="./pages/maincontent" component={maincontent}/>
-      {/* <Route path="./components/signin" component={signinform}/> */}
+      <Route path="/pages/maincontent" component={maincontent}/>
       <Route path="/" exact component={ExercisesList} />
       <Route path="/edit/:id" component={EditExercise} />
       <Route path="/create" component={CreateExercise} />
@@ -29,7 +29,7 @@ function App() {
       <Route path='/students/new' component={NewStudent} />
       </div>
     </Router>
-  );
+  )
 }
 
 export default App;
