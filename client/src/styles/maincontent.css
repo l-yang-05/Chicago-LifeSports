@@ -1,0 +1,71 @@
+
+
+.carousel-indicators li {
+    background-color: rgb(216, 196, 16);
+    padding:6px;
+}
+
+.headerbackground{
+    background-color: rgb(71, 71, 71);
+    height:100%;
+}
+
+.homeheadtitle{
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 90px;
+    color:rgb(216, 196, 16);
+
+}
+
+.headertitletwo{
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 80px;
+    color:rgb(255, 255, 255);
+}
+
+
+
+.paragraphone{
+    text-align:center;
+    font-size:40px;
+    color:rgb(255, 255, 255);
+}
+
+
+.headertitlethree{
+    margin-top:80px;
+    margin-bottom:80px;
+    text-align:center;
+    font-size:70px;
+    color:rgb(255, 255, 255);
+    font-family: 'Permanent Marker', cursive; 
+}
+
+.headertitlefour{
+    margin-top:10px;
+    text-align:center;
+    font-size:25px;
+    color:rgb(255, 255, 255); 
+    font-family: 'Permanent Marker', cursive; 
+}
+
+
+
+
+.logbutton{
+    margin-top:80px;
+    text-align:center;
+    border-radius: 100%;
+    font-size:30px;
+    padding:15px;
+    margin-left:460px;
+    background-color:rgb(216, 196, 16);
+    color:rgb(0, 0, 0);
+}
+
+.logbutton:hover{
+    color:yellow;
+    background-color: black;
+}
