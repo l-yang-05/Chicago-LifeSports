@@ -9,18 +9,22 @@ import CreateExercise from "./components/create-exercise.component";
 import CreateUser from "./components/create-user.component";
 import LoginUser from './components/login';
 import Profile from './components/profile';
+import Students from './components/Students'
+import NewStudent from './components/NewStudent'
 
 function App() {
   return (
     <Router>
       <div className="container">
         <Navbar />
+        <br />
         <Route path="/" exact component={LoginUser} />
         <Route path="/logs" exact component={ExercisesList} />
         <Route path="/edit/:id" component={EditExercise} />
         <Route path="/create" component={CreateExercise} />
         <Route path="/user" component={CreateUser} />
-        <Route path="/profile" component={Profile} />
+        <Route path='/students' component={Students} />
+        <Route path='/students/new' component={NewStudent} />
       </div>
     </Router>
   )

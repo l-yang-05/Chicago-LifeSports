@@ -28,7 +28,6 @@ if (process.env.NODE_ENV === "production") {
   uri = process.env.ATLAS_URI  // connection string for Atlas here  
 } else {
   uri = process.env.ATLAS_URI  // connection string for localhost mongo here  
-  console.log(process.env.PORT)
 }
 
 // connection to database
@@ -46,11 +45,21 @@ connection.once('open', () => {
 // register api catalogue
 const exercisesRouter = require('./routes/exercises');
 const usersRouter = require('./routes/users');
+<<<<<<< HEAD
 const verify = require('./routes/verify')
 
 app.use('/exercises', exercisesRouter);
 app.use('/users', usersRouter);
 app.use('/api', verify)
+=======
+// importing student route
+const studentRouter = require('./routes/students')
+
+app.use('/exercises', exercisesRouter);
+app.use('/users', usersRouter);
+// using student route
+app.use('/students', studentRouter)
+>>>>>>> 33f02f6baf94edbb76299e92efb65395442d9bd8
 
 // Creating live connection to reactjs app
 // Define any API routes before this runs
