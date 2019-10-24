@@ -46,9 +46,11 @@ connection.once('open', () => {
 // register api catalogue
 const exercisesRouter = require('./routes/exercises');
 const usersRouter = require('./routes/users');
+const verify = require('./routes/verify')
 
 app.use('/exercises', exercisesRouter);
 app.use('/users', usersRouter);
+app.use('/api', verify)
 
 // Creating live connection to reactjs app
 // Define any API routes before this runs

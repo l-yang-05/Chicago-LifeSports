@@ -8,13 +8,16 @@ function Navbar() {
       <div className="collpase navbar-collapse">
         <ul className="navbar-nav mr-auto">
           <li className="navbar-item">
-            <Link to="/" className="nav-link">Exercises</Link>
+            <Link to="/logs" className="nav-link">Exercises</Link>
           </li>
           <li className="navbar-item">
             <Link to="/create" className="nav-link">Post New Workout</Link>
           </li>
           <li className="navbar-item">
             <Link to="/user" className="nav-link">Create User</Link>
+          </li>
+          <li className="navbar-item">
+            <Link to="/" className="nav-link">Login User</Link>
           </li>
         </ul>
       </div>
