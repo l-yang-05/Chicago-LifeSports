@@ -45,13 +45,6 @@ connection.once('open', () => {
 // register api catalogue
 const exercisesRouter = require('./routes/exercises');
 const usersRouter = require('./routes/users');
-<<<<<<< HEAD
-const verify = require('./routes/verify')
-
-app.use('/exercises', exercisesRouter);
-app.use('/users', usersRouter);
-app.use('/api', verify)
-=======
 // importing student route
 const studentRouter = require('./routes/students')
 
@@ -59,7 +52,9 @@ app.use('/exercises', exercisesRouter);
 app.use('/users', usersRouter);
 // using student route
 app.use('/students', studentRouter)
->>>>>>> 33f02f6baf94edbb76299e92efb65395442d9bd8
+
+const verify = require('./routes/verify')
+app.use('/api', verify)
 
 // Creating live connection to reactjs app
 // Define any API routes before this runs

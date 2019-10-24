@@ -23,7 +23,7 @@ function Navbar() {
             <Link to="/students/new" className="nav-link">New Student</Link>
           </li>
           <li className="navbar-item">
-            <Link to="/" className="navbar-brand">Login</Link>
+            <Link to="/" className="nav-link">Login</Link>
           </li>
         </ul>
       </div>
