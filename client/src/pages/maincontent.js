@@ -18,7 +18,7 @@ function maincontent() {
                 <div>
                     <h2 class="headertitletwo">Who Are We?</h2>
 
-                    <p class="paragraphone">We are a non-profit organization partnered with Red Ventures. Our overall goal to connect with youth through sports which include our two subcateroy academies LifeHoops and LifeKicks.</p>
+                    <p class="paragraphone">We are a non-profit organization partnered with Red Ventures. Our overall goal to connect with and provide  the youth through sports which include our two academies LifeHoops and LifeKicks.</p>
 
                 </div>
                 <div>
