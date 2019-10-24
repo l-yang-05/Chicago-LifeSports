@@ -20,7 +20,7 @@ function App() {
       <Navbar />
       <br/>
       <Route path="./pages/maincontent" component={maincontent}/>
-      <Route path="./components/signin" component={signinform}/>
+      {/* <Route path="./components/signin" component={signinform}/> */}
       <Route path="/" exact component={ExercisesList} />
       <Route path="/edit/:id" component={EditExercise} />
       <Route path="/create" component={CreateExercise} />

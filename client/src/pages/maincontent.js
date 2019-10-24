@@ -9,7 +9,9 @@ function maincontent() {
         <body>
             <div>
                 <h1> Welcome To Life Sports</h1>
-
+            <div>
+        
+            </div>
 
                 <Carousel />
 
@@ -39,4 +41,4 @@ function maincontent() {
 
 
 
-export default { maincontent };
+export default maincontent;
