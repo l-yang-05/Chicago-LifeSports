@@ -1,0 +1,4 @@
+1. search bar for students
+2. inactive vs active students
+3. page for parent info
+4. styling improvement of students page
